@@ -1,4 +1,7 @@
 Hello, I'm Kenneth
+<a href="https://www.linkedin.com/in/kennethwang2004" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile">
+</a>
 
 
 [Brief Introduction - Remove this afterwards]
