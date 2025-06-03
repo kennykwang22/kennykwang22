@@ -1,7 +1,8 @@
 #  Incident Response Analysis Using NIST Cybersecurity Framework                                              June 3rd, 2025
 
 # Overview
-This project demonstrates how I analyzed a mock security incident using the **NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover)**. The report walks through each stage, including identifying threats, analyzing logs, and drafting a response plan.
+This project demonstrates how I analyzed a mock security incident using the **NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover)**. 
+The report walks through each stage, including identifying threats, analyzing logs, and drafting a response plan.
 
 # Goals
 - Practice applying a real-world cybersecurity framework
