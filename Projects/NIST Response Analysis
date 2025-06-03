@@ -10,14 +10,20 @@ The report walks through each stage, including identifying threats, analyzing lo
 - Understand how to respond to phishing attacks
 
 # Project Highlights
-- Simulated a phishing attack targeting employee emails
 - Used the NIST CSF to organize the response strategy
-- Documented all findings, observations, and suggested remediations
+- Documented all findings and observations
 
-## Skills Used
+# Skills Used
 - NIST Cybersecurity Framework
 - Basic threat detection
 - Log analysis
 - Technical writing
+
+# What I Learned
+- What type of attack occurred, the scope of the incident, and its impact to the organization
+- Potential network vulnerabilities and protection measures
+- Detection tools to monitor and secure the network
+- How to respond to cybersecurity incidents in the future
+- Recovery plans to restore normal operations
 ---
   Created as part of the "Google Cybersecurity Certificate" 
