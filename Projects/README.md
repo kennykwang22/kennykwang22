@@ -1,1 +1,24 @@
-# My Projects Folder
+#  Incident Response Analysis Using NIST Cybersecurity Framework                                              June 3rd, 2025
+
+# Overview
+This project demonstrates how I analyzed a mock security incident using the **NIST Cybersecurity Framework (Identify, Protect, Detect, Respond, Recover)**. The report walks through each stage, including identifying threats, analyzing logs, and drafting a response plan.
+
+# Goals
+- Practice applying a real-world cybersecurity framework
+- Build documentation and reporting skills
+- Understand how to respond to phishing attacks
+
+# Project Highlights
+- Simulated a phishing attack targeting employee emails
+- Used the NIST CSF to organize the response strategy
+- Documented all findings, observations, and suggested remediations
+
+## Skills Used
+- NIST Cybersecurity Framework
+- Basic threat detection
+- Log analysis
+- Technical writing
+---
+  Created as part of the "Google Cybersecurity Certificate" 
+
+[NIST_Incident_Report_Analysis (1).docx](https://github.com/user-attachments/files/20581131/NIST_Incident_Report_Analysis.1.docx)
