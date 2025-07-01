@@ -1,1 +1,37 @@
+Apply filters to SQL queries
+
+Project description: This project demonstrates my ability to use SQL filtering techniques (AND, OR, NOT, and LIKE) to extract relevant security-related data from organizational databases. The goal is to identify specific login attempts and employee machine data for investigating potential security issues.
+
+Retrieve after hours failed login attempts
+SELECT * FROM log_in_attempts
+WHERE success = 0 AND login_time > '18:00';
+Explanation: This query filters the log_in_attempts table to identify all login attempts that failed (success = 0) and occurred after 6:00 PM (login_time > '18:00'). This helps uncover potentially suspicious access attempts during non-business hours.
+
+Retrieve login attempts on specific dates (This section reused for filtering out Mexico as per assignment instructions)
+SELECT * FROM log_in_attempts
+WHERE country NOT LIKE '%MEX%';
+Explanation: This query retrieves login attempts that occurred in any country except Mexico. It uses NOT LIKE '%MEX%' to exclude any country values containing "MEX" or "MEXICO".
+
+Retrieve login attempts outside of Mexico
+SELECT * FROM log_in_attempts
+WHERE country NOT LIKE '%MEX%';
+Explanation: This duplicates the previous logic to find login attempts from outside Mexico, helping rule out those sources as the origin of suspicious activity.
+
+Retrieve employees in Marketing
+SELECT * FROM employees
+WHERE department = 'Marketing' AND office LIKE 'East%';
+Explanation: This query returns employees who work in the Marketing department and are located in any office that starts with "East" (e.g., East-170, East-320). Useful for planning targeted security updates.
+
+Retrieve employees in Finance or Sales
+SELECT * FROM employees
+WHERE department = 'Finance' OR department = 'Sales';
+Explanation: Filters employees who belong to either the Finance or Sales departments. This assists in deploying updates specific to these groups.
+
+Retrieve all employees not in IT
+SELECT * FROM employees
+WHERE department != 'Information Technology';
+Explanation: Excludes employees in the Information Technology department, allowing the team to update machines for all remaining departments.
+
+Summary In this portfolio project, I used SQL filtering techniques to support an investigation into potential security threats. I practiced combining conditions using AND, OR, and NOT, and pattern-matching with LIKE. These skills are essential for real-world cybersecurity roles that require analyzing large datasets to uncover critical information efficiently.
+
 
